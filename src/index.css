@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #5c6244 !important;
+  background: #fff9f2 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div.dark {
+  background: #d8dfbe !important;
+}
+
+div.hero-bg {
+  height: 300px;
+  width: 100%;
+  background-image: url("./hero-bg.png") !important;
+  background-repeat: no-repeat, no-repeat !important;
+  background-position: center;
 }
